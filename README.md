@@ -74,7 +74,7 @@ Our program only supports input graph files in matrix market format (.mtx). All 
    cmake ..
    ```
 
-2. Generate the executable file `MG-αGCD`:
+2. Generate the executable file `MG_GCD`:
 
    ```shell
    make
