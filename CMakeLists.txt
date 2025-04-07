@@ -16,9 +16,6 @@ enable_language(CUDA)
 
 add_definitions(-DTIMING)
 
-#set(CSR_SPGEMM_FLAGS "-Xcompiler -fopenmp")
-#set_source_files_properties(source/csr_spgemm.cu PROPERTIES COMPILE_FLAGS ${CSR_SPGEMM_FLAGS})
-
 add_executable(MG_GCD
         include/mmio/mmio.h
         include/mmio/mmio_wrapper.h
